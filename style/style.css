@@ -1,0 +1,258 @@
+html {
+    min-height: 100%;
+    position: relative;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding-bottom: 80px;
+    background-color: rgb(251, 240, 255);
+    color: rgb(107, 95, 27);
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* #------------------HEADER------------------------------------- */
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+.header{
+    display: flex;
+    margin: 10px 30px;
+}
+.nav {
+position: relative;
+z-index: 2; /* Asegura que el menú esté sobre la wave */
+}
+.nav a{
+    color: wheat;
+    text-decoration: none;
+    margin: 20px 32px;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.redes-sociales{
+    position: relative;
+    margin-left: 20%;
+    z-index: 2;
+}
+.redes-sociales a{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+.redes-sociales a img{
+    width: 40px;
+}
+.marca-personal{
+    position: relative;
+    z-index: 2;
+    width: 80px;
+}
+/* #----------------------------MAIN---------------------------- */
+.main-aboutme{
+    margin: 30px 50px 80px 80px;
+    flex: 1;
+}
+.info-personal{
+    display: flex;
+    align-items: center;
+}
+.nombre{
+    margin-right: 50px;
+}
+.nombre h3{
+    font-size:100px;
+    text-align: center;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.desarrollo{
+    border-style: dotted;
+    margin: 30px;
+}
+.diseno{
+    border-style: dotted;
+    margin: 30px;
+}
+.bd{
+    border-style: dotted;
+    margin: 30px;
+}
+.desarrollo img{
+    width: 100px;
+}
+
+.diseno img{
+    width: 100px;
+}
+
+.bd img{
+    width: 100px;
+}
+
+.habilidades    {
+    margin:80px 200px;
+    height:90%;
+    width:65%;
+    border:2px solid #3c1053;
+    text-align: center;
+}
+.diseno img{
+    margin-right: 80px;
+}
+.desarrollo img{
+    margin-left: 80px;
+}
+.titulo-hab{
+    width: 110px;
+    font-size:18px;
+    margin-top:-12px;
+    margin-left:7px;
+    background:rgb(251, 240, 255);
+}
+.titulo-desarrollo{
+    width: 110px;
+    font-size:18px;
+    margin-top:-12px;
+    margin-left:7px;
+    background:rgb(251, 240, 255);
+}
+.titulo-diseno{
+    width: 110px;
+    font-size:18px;
+    margin-top:-12px;
+    margin-left:7px;
+    background:rgb(251, 240, 255);
+}
+.titulo-bd{
+    width: 110px;
+    font-size:18px;
+    margin-top:-12px;
+    margin-left:7px;
+    background:rgb(251, 240, 255);
+}
+.descripcion{
+    width: 70%;
+    margin-left: 180px;
+}
+/* #---------------------------------FOOTER---------------- */
+footer {
+    background: #ad5389;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    margin: 20px 50px;
+}
+footer div ul li {
+    list-style: none;
+}
+footer div ul li a {
+    color: white;
+
+}
+
+#git-white{
+    width: 40px;
+}
+
+.info-contacto p {
+    margin: 0;
+}
+.redes-sociales-footer{
+    margin-left: 30%;
+    margin-top: 0px;
+}
+.redes-sociales-footer a{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+.redes-sociales-footer a img{
+    width: 25px;
+}
+
+.creditos{
+    top: 0px;
+}
+/* -----------Experience */
+.main-experience{
+    margin: 90px 150px;
+}
+.main-experience h2{
+    text-align: center;
+}
+.experiencia-orlando img{
+    width: 200px;
+}
+.experiencia-orlando {
+   margin: 0px 30px;
+   display: flex;
+   align-items: center;
+}
+/* Education */
+.main-education{
+    margin: 90px 250px;
+}
+.main-education h2{
+    text-align: center;
+}
+.educacion-formal img{
+    width: 100px;
+    padding: 20px 40px;
+}
+.educacion-formal {
+    display: flex;
+    align-items: center;
+}
+.educacion-informal img{
+    width: 100px;
+    padding: 20px 40px;
+}
+.educacion-informal {
+    display: flex;
+    align-items: center;
+}
+/* Projects */
+.main-projects{
+    margin: 75px 250px;
+}
+.main-projects h2{
+    text-align: center;
+}
+.main-projects a{
+    color: #2b064d;
+}
+
