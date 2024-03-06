@@ -200,6 +200,7 @@ footer div ul li a {
 .redes-sociales-footer{
     margin-left: 30%;
     margin-top: 0px;
+    display: flex;
 }
 .redes-sociales-footer a{
     background-color: transparent;
